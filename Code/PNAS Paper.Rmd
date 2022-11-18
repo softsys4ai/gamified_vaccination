@@ -1,0 +1,52 @@
+---
+title: "PNAS Publication"
+author: "Morteza Maleki"
+date: "2022-09-11"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+```{r cars}
+rm(list = ls())
+
+
+library(readr)
+source('Data Analysis.R')
+
+```
+
+Additional visualizations for PNAS:
+
+1. Forest plot of logistic regression estimations AND perform multiple logistic regression analysis 
+on differnt target variabels in the mdoel. Linke below:https://www.pnas.org/doi/10.1073/pnas.2205356119#data-availability
+
+
+2. Inclusion of Poisson regression for exploratory analysis of impact of existsnce of various independent variables on 
+the same dependet variable. Link: https://www.pnas.org/doi/10.1073/pnas.2205356119#data-availability
+
+3. More description and visualization about each knowledge question. 
+
+4. Table about knowledge questions link: https://www.pnas.org/doi/epdf/10.1073/pnas.2205356119
+
+https://dataverse.harvard.edu/file.xhtml?fileId=4318956&version=1.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
